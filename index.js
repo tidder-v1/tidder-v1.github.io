@@ -29,7 +29,7 @@ $.fn.typewriter = function() {
                 return;
               }
               else{
-                setTimeout(typewriting, 10 + Math.random()*100);
+                setTimeout(typewriting, 20 + Math.random()*100);
               }
             }
             typewriting();
